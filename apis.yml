@@ -1,7 +1,27 @@
 aid: scalable-cfo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scalable-cfo.png
 name: Scalable CFO
-description: Scalable CFO is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  The Scalable CFO is an Abu Dhabi (ADGM) based financial-operations platform for
+  small and medium-sized enterprises. Its MADI software delivers real-time cash-flow
+  forecasting, "what-if" scenario simulation, bill-payment planning and
+  invoice-collection tracking, syncing with accounting systems such as Xero and
+  QuickBooks. Alongside the software it runs a marketplace connecting businesses to
+  6,300+ pre-vetted fractional CFOs and accountants for accounts cleanup, tax
+  compliance, margin optimization and fundraising readiness. The Scalable CFO is a
+  500 Global portfolio company. As of this enrichment pass no public API, developer
+  portal, or developer documentation is published.
 url: https://raw.githubusercontent.com/api-evangelist/scalable-cfo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Finance
+- Fintech
+- CFO
+- Cash Flow
+- Forecasting
+- Accounting
+- SME
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://thescalablecfo.com
+- type: Pricing
+  url: https://www.thescalablecfo.com/pricing/
+- type: SignUp
+  url: https://app.thescalablecfo.com/signup
+- type: Login
+  url: https://app.thescalablecfo.com/login
+- type: TermsOfService
+  url: https://www.thescalablecfo.com/terms_conditions/
+- type: PrivacyPolicy
+  url: https://www.thescalablecfo.com/terms_conditions/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
